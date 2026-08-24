@@ -68,28 +68,7 @@ public class ReadOnlyListView : IReadableList   // лише читання, БЕ
 
 ## Приклад запуску
 
-```
-======== ПОЧАТКОВА ІЄРАРХІЯ (порушує LSP) ========
-
-Заповнюємо CustomList 1..3 клієнтським методом FillList:
-  [1, 2, 3]
-
-Передаємо ReadOnlyList у той самий метод FillList (це ж теж CustomList):
-  !!! ПОРУШЕННЯ LSP: ReadOnlyList не підтримує додавання елементів.
-  Підтип не підставляється замість базового типу без поломки коду.
-
-
-======== РЕФАКТОРИНГ (дотримується LSP) ========
-
-MutableList після заповнення 1..3:
-  [1, 2, 3]  (Count=3)
-
-ReadOnlyListView (композиція над MutableList) — лише читання:
-  [1, 2, 3]  (Count=3)
-
-ReadOnlyListView не має методу Add і несумісний із FillMutable(IMutableList),
-тож порушення просто НЕ може статися — це гарантує компілятор ще до запуску.
-```
+<img width="513" height="269" alt="image" src="https://github.com/user-attachments/assets/21747add-ffdf-4309-9176-8eec5d37ec5f" />
 
 ## Висновки
 
