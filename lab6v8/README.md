@@ -64,4 +64,5 @@ Aggregate (сума):  45
 [LEN]  довжина = 20
 ```
 
-<!-- Сюди додати скріншот реального виводу програми -->
+<img width="383" height="368" alt="image" src="https://github.com/user-attachments/assets/440c2410-0c6c-405c-9a23-3db3ba775ae3" />
+
