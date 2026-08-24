@@ -37,19 +37,6 @@
 
 ## Приклад запуску
 
-```
-=== Валідатор: Email ===
-Перевірено значень: 5
-Валідних: 40,0%
-Невалідні: bad-email, no@dot, @wrong.com
+<img width="534" height="280" alt="image" src="https://github.com/user-attachments/assets/671f7ef2-a5fa-4ead-8c03-811bfe61494f" />
 
-=== Валідатор: Телефон ===
-Перевірено значень: 5
-Валідних: 60,0%
-Невалідні: 12345, abcdef
-```
-
-> Розділювач дробової частини (`,` або `.`) залежить від регіональних налаштувань системи.
-
-<img width="1915" height="876" alt="image" src="https://github.com/user-attachments/assets/4c0bbb96-bbfa-4bb4-a76f-3fbff945eff6" />
 
